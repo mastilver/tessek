@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "babel": "^5.8.20",
+    "mocha": "^2.2.5",
     "should": "^7.0.2",
     "sinon": "^1.15.4"
   }
