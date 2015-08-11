@@ -19,16 +19,6 @@ var tessek = require('tessek');
 ```
 
 
-## CLI
-
-```
-$ npm install --global tessek
-```
-```
-$ tessek --help
-```
-
-
 ## API
 
 

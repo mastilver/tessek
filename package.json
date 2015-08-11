@@ -18,18 +18,14 @@
   },
   "files": [
     "index.js",
-    "cli.js"
   ],
   "keywords": [
-    "cli-app",
-    "cli",
     "bitcoin",
     "trading",
     "trade",
     "arbitrage"
   ],
   "dependencies": {
-    "meow": "^3.3.0"
   },
   "devDependencies": {
     "babel": "^5.8.20",

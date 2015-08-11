@@ -8,7 +8,7 @@ var CandleHandler = require('../../lib/candleHandler');
 
 
 
-describe('when candle emitter emit candle', function(){
+describe('candleHandler: candle emitter emit candle', function(){
 
 
     describe('when there is enough candles to retrieve', function(){

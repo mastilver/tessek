@@ -1,4 +1,2 @@
 'use strict';
-module.exports = function (str, opts) {
-	
-};
+module.exports = require('./lib/tessek');
