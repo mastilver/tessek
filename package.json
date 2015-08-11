@@ -14,10 +14,11 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
-    "index.js",
+    "index.js"
   ],
   "keywords": [
     "bitcoin",
@@ -25,11 +26,12 @@
     "trade",
     "arbitrage"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel": "^5.8.20",
+    "coveralls": "^2.11.3",
     "mocha": "^2.2.5",
+    "nyc": "^3.1.0",
     "should": "^7.0.2",
     "sinon": "^1.15.4"
   }
