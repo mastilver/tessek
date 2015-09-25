@@ -1,15 +1,14 @@
 {
   "name": "tessek",
-  "version": "0.2.0",
-  "description": "A modular bitcoin trading bot",
+  "version": "0.0.0",
+  "description": "a modular bitcoin trading bot",
   "license": "MIT",
   "repository": "mastilver/tessek",
   "author": {
     "name": "Thomas Sileghem",
-    "email": "th.sileghem@gmail.com",
+    "email": "tsileghem@neworbit.co.uk",
     "url": "github.com/mastilver"
   },
-  "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -21,18 +20,13 @@
     "index.js"
   ],
   "keywords": [
-    "bitcoin",
-    "trading",
-    "trade",
-    "arbitrage"
+    ""
   ],
   "dependencies": {},
   "devDependencies": {
-    "babel": "^5.8.20",
-    "coveralls": "^2.11.3",
     "mocha": "^2.2.5",
-    "nyc": "^3.1.0",
     "should": "^7.0.2",
-    "sinon": "^1.15.4"
+    "coveralls": "^2.11.2",
+    "nyc": "^2.3.0"
   }
 }
